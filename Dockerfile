@@ -13,7 +13,7 @@ ENV password=$password
 COPY . /app
 
 RUN apt-get install git && \
-    wget https://www-eu.apache.org/dist/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz && \
+    wget https://downloads.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz && \
     tar -xvzf apache-maven-3.6.3-bin.tar.gz && \
     mv apache-maven-3.6.3 maven
 
